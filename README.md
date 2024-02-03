@@ -2,6 +2,7 @@
 
 ## Description 
 
+The aim of this challenge was to create a password generator that can randonly generate a passwod to the user. The password would need to meet a number of different criteria in order to be considered a strong password that can provide greater security and protect sensitive data
 
 ## User Story
 
@@ -34,5 +35,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Image
 
+Image of application 
+
 
 ## Link 
+
+Link to deployed application - 
