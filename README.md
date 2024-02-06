@@ -49,10 +49,12 @@ The Random Password consists of the following characteristics:
 
 Without output 
 
+<img width="913" alt="Password Generator - Without Output" src="https://github.com/e-aji/week-3-javascript-password-generator/assets/156595423/5e1dd541-ea3e-4e51-95c3-4031092b1095">
 
 
 With output
 
+<img width="883" alt="Password Generator - With Output" src="https://github.com/e-aji/week-3-javascript-password-generator/assets/156595423/e26b86b4-5ad9-475a-8463-89ac40bc9fc6">
 
 ## Link 
 
