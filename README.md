@@ -39,6 +39,7 @@ The Random Password consists of the following characteristics:
 * The password has been set to consist of a mix of characters including, uppercase letters, lowercase letters, special characters and numbers.
 * The password will need to be at least 8 characters and at most 128 characters 
 * When looking to generate a random password, the user must confirm that they want each of the character type and they are given a question for each and will need to confirm before being able to move forward.
+    * If they do not select at least one of the character types, an alert will be shown to remind them they they will need to select at least one character type in order to generate a password.
 * The user will then be asked to specify the number of characters they will like to have and if not between 8 and 128, they will be provided with an alert that states that they need to choose a number within those parameters. 
 * Once characters have been confirmed and a suitable password length has been chosen a message will be provided to state that the password meets the correct criteria and a random password will be generated to meet to chosen length.
 
