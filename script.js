@@ -9,6 +9,7 @@ function writePassword() {
 
   passwordText.value = password;}
 
+  // Function to generate password based on preferences of each user
 function generatePassword() {
 
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -16,7 +17,7 @@ function generatePassword() {
   var number = "1234567890";
   var special =  "!@#$%&'()*+,^-./:;<=>?[]_`{~}|";
 
-  
+  // Ask the user to confirm which character types they want
   var uppercasePref = confirm ("Do you want lowercase letters in your password?");
   var lowercasePref = confirm ("Do you want uppercase letters in your password?");
   var numberPref = confirm ("Do you want numbers in your password?");
@@ -26,8 +27,10 @@ function generatePassword() {
     alert ("You must select at least one character type in your password");
     return "";
   }
+  // Ask the user what their desired password length is
   var passwordLength = prompt("How long do you want your password to be?");
 
+  // Check if the password length is within the set parameters, and if not display the appropriate message
   if (passwordLength <8) {
     alert("Password must be at least 8 characters");
     return "";
@@ -40,6 +43,7 @@ function generatePassword() {
     alert("Password meets the correct criteria!")
   )
 
+  // String for all the password characters to be selected based on user preference 
     var passwordChar = "";
 
     if (uppercasePref) {
@@ -60,13 +64,14 @@ function generatePassword() {
     
     var password = "";
 
-    /* For loop to ensure that a random character that meets the specified length is selected each time*/
+    // For loop to ensure that a random character that meets the specified length is generated each time
 
     for (var i = 0; i < passwordLength; i++){
       password += passwordChar.charAt(Math.floor(Math.random() * passwordChar.length));
 
     }
   
+    // Return the generated password and display it 
     return password;
   }
 
