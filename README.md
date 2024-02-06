@@ -58,4 +58,4 @@ With output
 
 ## Link 
 
-Link to deployed application - 
+Link to deployed application - https://e-aji.github.io/week-3-javascript-password-generator/
