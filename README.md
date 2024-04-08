@@ -1,4 +1,4 @@
-# week-3-javascript-password-generator
+# Javascript Password Generator
 
 ## Description 
 
